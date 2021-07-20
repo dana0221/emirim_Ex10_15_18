@@ -20,11 +20,43 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:layout_marginTop="10dp"/>
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <RadioButton
+            android:id="@+id/r_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_plus"/>
+
+        <RadioButton
+            android:id="@+id/r_minus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_minus"/>
+
+        <RadioButton
+            android:id="@+id/r_multi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_multi"/>
+
+        <RadioButton
+            android:id="@+id/r_div"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_div"/>
+
+    </RadioGroup>
     
     <Button
-        android:id="@+id/btn_plus"
+        android:id="@+id/btn_calc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btn_plus"/>
+        android:text="@string/btn_calc"/>
 
 </LinearLayout>
