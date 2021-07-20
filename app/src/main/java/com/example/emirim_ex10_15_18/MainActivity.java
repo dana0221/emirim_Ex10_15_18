@@ -64,9 +64,9 @@ public class MainActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
 
         if(resultCode == RESULT_OK){
-            int sum = data.getIntExtra("sum", 0);
+            int result = data.getIntExtra("result", 0);
 
-            Toast.makeText(getApplicationContext(), "합계 : " + sum, Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "결과 : " + result, Toast.LENGTH_SHORT).show();
         }
     }
 }
